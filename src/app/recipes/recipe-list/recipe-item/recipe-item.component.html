@@ -1,0 +1,13 @@
+<a href="#" class="list-group-item bg-light" (click)="onSelected()">
+  <div class="row">
+    <div class="col-md-9">
+      <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
+      <p class="list-group-item-text">{{ recipe.description }}</p>
+    </div>
+    <div class="col-md-3">
+      <span>
+        <img class="img-fluid" src="{{ recipe.img_path }}" style="max-height:50px">
+      </span>
+    </div>
+  </div>
+</a>
